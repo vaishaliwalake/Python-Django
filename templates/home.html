@@ -1,0 +1,8 @@
+<h1 style="color:purple;">Welcome to Django Login page </h1>
+{% if user.is_authenticated %}
+<p>Hi {{ user.username }}
+<p style="font-size:160%;"><a href="{% url 'logout' %}">Log out</a></p>
+{% else %}
+<p style="font-size:160%;"><a href="{% url 'signup' %}">Sign Up</a></p>
+<p><a href="{% url 'login' %}">Log In </a></p>
+{% endif %}
