@@ -1,1 +1,1 @@
-# PythonDjango projcet to create custom user login
+# PythonDjango project to create custom user login
